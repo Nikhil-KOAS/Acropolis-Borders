@@ -1,0 +1,11 @@
+layer: "earth-server"
+borders:
+   madagascar:
+      - stroke-colour: "#FFFFFF"
+      - stroke-width: 3
+      - fill-colour: "#111111"
+      - id: "madagascar"
+      - text: "Madagscar"
+      - points:
+      -   -  - [1,1]
+      -   -  - [4,7]
