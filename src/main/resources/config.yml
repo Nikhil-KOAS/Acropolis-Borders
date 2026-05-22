@@ -6,6 +6,8 @@ borders:
       - fill-colour: "#111111"
       - id: "madagascar"
       - text: "Madagscar"
-      - points:
-      -   -  - [1,1]
-      -   -  - [4,7]
+      - points: [
+                   [100,1000],
+                   [30, 4],
+                   [300, 1264]
+      ]

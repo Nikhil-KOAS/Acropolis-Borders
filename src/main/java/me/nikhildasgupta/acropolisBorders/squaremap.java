@@ -45,10 +45,6 @@ public final class squaremap  extends BukkitRunnable implements Listener {
 
     <sC, sL, cT, iD, pL, fC> void createPolygon(Color sC, Integer sL, Color fC , String iD , String cT, List pL) {
 
-        System.out.println(sC);
-        System.out.println(sL);
-        System.out.println(cT);
-        System.out.println(iD);
         Polygon rect = Marker.polygon(pL);
         ArrayList<String> builders = new ArrayList<>();
         ArrayList<String> containers = new ArrayList<>();
@@ -70,8 +66,6 @@ public final class squaremap  extends BukkitRunnable implements Listener {
         rect.markerOptions(options);
 
         String markerid = iD ;
-        System.out.println(markerid);
-        System.out.println(provider);
         this.provider.addMarker(Key.of(markerid), rect);
     }
 
