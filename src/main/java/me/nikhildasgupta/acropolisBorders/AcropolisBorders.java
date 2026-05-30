@@ -40,7 +40,6 @@ public final class AcropolisBorders extends JavaPlugin implements Listener {
             for (String key : keys) {
                 String x="borders."+key;
                 List this_country = getConfig().getList(x );
-                System.out.println(this_country);
                 Color stroke_colour=Color.decode((String) ((LinkedHashMap) this_country.get(0)).get("stroke-colour"));//get_config(x+".stroke_colour", "colour");
                 Integer stroke_width= (Integer) ((LinkedHashMap) this_country.get(1)).get("stroke-width");
                 Color fill_colour =Color.decode((String) ((LinkedHashMap) this_country.get(2)).get("fill-colour"));
@@ -80,7 +79,7 @@ public final class AcropolisBorders extends JavaPlugin implements Listener {
     public List<Point> list_cords_to_points(List<List> list){
         List to_return=new ArrayList<>();
         for (List point_l : list){
-            Integer x= (Integer) point_l.get(0);
+            Integer  x= (Integer) point_l.get(0);
             Integer z= (Integer) point_l.get(1);
             Point point = Point.of(x, z);
             to_return.add(point);

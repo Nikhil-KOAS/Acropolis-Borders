@@ -58,7 +58,7 @@ public final class squaremap  extends BukkitRunnable implements Listener {
                 .strokeWeight(sL)
                 .strokeOpacity(1.0)
                 .fillColor(fC)
-                .fillOpacity(0.2)
+                .fillOpacity(0.75)
                 .clickTooltip(cT);
 
 

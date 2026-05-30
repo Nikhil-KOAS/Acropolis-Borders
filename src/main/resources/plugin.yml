@@ -3,7 +3,7 @@ description: $description
 version: '${version}'
 
 main: me.nikhildasgupta.acropolisBorders.AcropolisBorders
-api-version: '26.1'
+api-version: '1.21.11'
 
 authors: [ YellowLion11500 ]
 website: https://acropolis-smp.co.uk
